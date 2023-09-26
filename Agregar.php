@@ -56,7 +56,82 @@ if($_SERVER["REQUEST_METHOD"] == 'POST'){
         </nav>
     </div>
 
-    
+    <div class="section container">
+
+        <div class="row">
+
+            <form class="col s12" method="post">
+
+                <div class="row card panel">
+
+                    <div class="input-field col s6">
+
+                        <input type="number" name="cedula" id="id" required >
+
+                        <label for="id">Cedula</label>
+
+                    </div>
+
+                    <div class="input-field col s6">
+
+                        <input type="text" name="nombre" id="nombre" class="validate" required >
+
+                        <label for="nombre">Nombre</label>
+
+                    </div>
+
+                    <div class="input-field col s6">
+
+                        <input type="text" name="Papellido" id="Papellido" class="validate" required >
+
+                        <label for="Papellido">Primer Apellido</label>
+
+                    </div>
+
+                    <div class="input-field col s6">
+
+                        <input type="text" name="Sapellido" id="Sapellido" class="validate" required >
+
+                        <label for="Sapellido">Segundo Apellido</label>
+
+                    </div>
+
+                    <div class="input-field col s6">
+
+                        <input type="text" name="email" id="email" class="validate" required >
+
+                        <label for="email">Email</label>
+
+                    </div>
+
+                    <div class="input-field col s6">
+
+                        <input type="text" name="telefono" id="telefono" class="validate" required>
+
+                        <label for="telefono">Telefono</label>
+
+                    </div>
+
+                    <br>
+
+                    <br>
+
+                    <br>
+
+                    &nbsp;&nbsp;<button class="btn" type="submit">Agregar</button>
+
+                    <br>
+
+                    <br>
+
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
 
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
